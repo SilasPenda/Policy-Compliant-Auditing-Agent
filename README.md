@@ -55,9 +55,11 @@ A smart AI-powered Compliance Auditor Assistant designed to analyze documents, e
    python -m pip install --upgrade pip
    pip install -r requirements.txt
 
-4. Using NB_1.ipynb, create collections for documents and policies (policy.yaml):
+4. Create .env file and add OPEN_AI_KEY
 
-5. Start App
+5. Using NB_1.ipynb, create collections for documents and policies (policy.yaml):
+
+6. Start App
 
    ```bash
    python app.py
