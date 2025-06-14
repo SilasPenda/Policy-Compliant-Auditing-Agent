@@ -1,0 +1,178 @@
+GDPR_Policy_Rules:
+  - content: "According to GDPR, personal data must not be shared with third parties without explicit consent from the data subject."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: data_sharing
+      severity: high
+
+  - content: "Under GDPR, data subjects have the right to access their personal data and obtain information about how it is being used."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: data_access
+      severity: medium
+
+  - content: "GDPR mandates that users must be able to withdraw consent for data processing at any time, and organizations must respect this withdrawal."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: consent_withdrawal
+      severity: high
+
+  - content: "GDPR requires that data breaches must be reported to the relevant supervisory authority within 72 hours, unless unlikely to pose a risk to rights and freedoms."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: data_breach
+      severity: critical
+
+  - content: "GDPR stipulates that personal data should only be collected for specified, explicit, and legitimate purposes, and not further processed in a way incompatible with those purposes."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: data_minimization
+      severity: high
+
+  - content: "GDPR mandates data controllers to implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: data_security
+      severity: high
+
+  - content: "Data subjects have the right under GDPR to have their personal data rectified if it is inaccurate or incomplete."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: data_accuracy
+      severity: medium
+
+  - content: "GDPR establishes the right to data portability, enabling individuals to obtain and reuse their personal data across different services."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: data_portability
+      severity: medium
+
+  - content: "GDPR grants individuals the right to be forgotten, meaning their personal data must be erased upon request under certain conditions."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: right_to_erasure
+      severity: high
+
+  - content: "Organizations subject to GDPR must appoint a Data Protection Officer (DPO) if they regularly monitor individuals on a large scale or process special categories of data."
+    metadata:
+      source: policy_manual
+      law: GDPR
+      category: dpo_requirement
+      severity: high
+
+HIPAA_Policy_Rules:
+  - content: "HIPAA requires covered entities to implement administrative, physical, and technical safeguards to ensure the confidentiality, integrity, and availability of electronic protected health information (ePHI)."
+    metadata:
+      source: policy_manual
+      law: HIPAA
+      category: security_safeguards
+      severity: high
+
+  - content: "Under HIPAA, individuals have the right to access and obtain a copy of their health records in a timely manner."
+    metadata:
+      source: policy_manual
+      law: HIPAA
+      category: data_access
+      severity: medium
+
+  - content: "HIPAA prohibits the use or disclosure of protected health information (PHI) without authorization, except for treatment, payment, or healthcare operations."
+    metadata:
+      source: policy_manual
+      law: HIPAA
+      category: data_sharing
+      severity: high
+
+  - content: "HIPAA mandates a breach notification to affected individuals and the Secretary of HHS within 60 days of discovering a data breach."
+    metadata:
+      source: policy_manual
+      law: HIPAA
+      category: data_breach
+      severity: critical
+
+  - content: "HIPAA requires organizations to conduct periodic risk assessments to identify potential vulnerabilities in handling ePHI."
+    metadata:
+      source: policy_manual
+      law: HIPAA
+      category: risk_assessment
+      severity: medium
+
+CCPA_Policy_Rules:
+  - content: "The CCPA grants California residents the right to know what personal information is collected about them, and how it is used, shared, or sold."
+    metadata:
+      source: policy_manual
+      law: CCPA
+      category: data_collection
+      severity: high
+
+  - content: "CCPA provides individuals the right to request deletion of their personal data held by a business."
+    metadata:
+      source: policy_manual
+      law: CCPA
+      category: right_to_delete
+      severity: high
+
+  - content: "Under CCPA, consumers have the right to opt out of the sale of their personal data to third parties."
+    metadata:
+      source: policy_manual
+      law: CCPA
+      category: data_sale
+      severity: high
+
+  - content: "Businesses must not discriminate against consumers for exercising their CCPA rights, such as by denying services or charging different prices."
+    metadata:
+      source: policy_manual
+      law: CCPA
+      category: non_discrimination
+      severity: medium
+
+  - content: "Businesses subject to CCPA must update their privacy policy at least once every 12 months to reflect current data practices."
+    metadata:
+      source: policy_manual
+      law: CCPA
+      category: policy_update
+      severity: medium
+
+Internal_IT_Security_Policy_Rules:
+  - content: "All employees must use multi-factor authentication (MFA) when accessing internal systems containing sensitive data."
+    metadata:
+      source: policy_manual
+      law: internal
+      category: authentication
+      severity: high
+
+  - content: "Company laptops must be encrypted using full-disk encryption and password-protected when not in use."
+    metadata:
+      source: policy_manual
+      law: internal
+      category: device_security
+      severity: high
+
+  - content: "Phishing simulations must be conducted quarterly, and failure to complete training will result in restricted system access."
+    metadata:
+      source: policy_manual
+      law: internal
+      category: training
+      severity: medium
+
+  - content: "Employees must not install unapproved third-party software on company devices without prior authorization."
+    metadata:
+      source: policy_manual
+      law: internal
+      category: software_policy
+      severity: high
+
+  - content: "All data backups must be performed daily and tested monthly to ensure data recovery integrity."
+    metadata:
+      source: policy_manual
+      law: internal
+      category: backup_policy
+      severity: critical
