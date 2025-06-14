@@ -31,7 +31,7 @@ A smart AI-powered Compliance Auditor Assistant designed to analyze documents, e
 
 - Python 3.11+
 - Docker (optional, for containerized deployment)
-- Access to OpenAI API or other LLM providers
+- Access to OpenAI API or other LLM providers like Ollama
 - Vector database setup (e.g., ChromaDB)
 
 ### Installation
